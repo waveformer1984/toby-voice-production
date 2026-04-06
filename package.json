@@ -1,0 +1,20 @@
+{
+  "name": "toby-voice-webhook-server",
+  "version": "1.0.0",
+  "description": "Production webhook server for Toby Voice payments",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "stripe": "^17.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
